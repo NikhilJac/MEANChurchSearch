@@ -1,0 +1,6 @@
+<h1>{{ vm.title }}</h1>
+<div class="txtmod">
+<ul>
+  <li ng-repeat="church in vm.churches"><a ng-href="#!/church/{{ church._id }}">{{ church.name }}</a></li>
+</ul>
+</div>

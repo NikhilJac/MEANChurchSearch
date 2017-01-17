@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="meanchurch">
+<head>
+  <title>ChurchSearch</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/custom.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <mh-navigation></mh-navigation>
+  <div class="container">
+    <div ng-view></div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted text-center">
+        <a href="http://linkedin.com/in/nikhiljacobjose" target="_blank"><img src="/images/logo.png" height="26" width="50" alt="nikhiljacobjose"/></a>
+      </p>
+
+      <p class="text-muted text-center">
+        <small>&copy; 2016 Nikhil Jacob Jose</small>
+      </p>
+    </div>
+  </footer>
+
+  <script src="jquery/jquery-2.1.4.min.js"></script>
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="node_modules/angular-route/angular-route.js"></script>
+  <script src="node_modules/angular-jwt/dist/angular-jwt.js"></script>
+  <script src="angular-app/app.js"></script>
+  <script src="angular-app/church-list/church-list-controller.js"></script>
+  <script src="angular-app/church-display/church-display-controller.js"></script>
+  <script src="angular-app/church-data-factory/church-data-factory.js"></script>
+  <script src="angular-app/church-rating/church-rating-directive.js"></script>
+  <script src="angular-app/register/register-controller.js"></script>
+  <script src="angular-app/navigation-directive/navigation-directive.js"></script>
+  <script src="angular-app/login/login-controller.js"></script>
+  <script src="angular-app/auth/auth-factory.js"></script>
+  <script src="angular-app/auth/auth-interceptor.js"></script>
+</body>
+</html>
